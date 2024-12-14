@@ -1,0 +1,12 @@
+.documentItem {
+    padding: 10px; /* Внутренние отступы */
+    margin: 5px 0; /* Отступы сверху и снизу */
+    background-color: #ffffff; /* Белый фон для документов */
+    border-radius: 3px; /* Закругленные углы */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Легкая тень */
+    transition: background-color 0.2s; /* Плавный переход фона */
+}
+
+.documentItem:hover {
+    background-color: #e0e0e0; /* Цвет изменения фона при наведении */
+}
